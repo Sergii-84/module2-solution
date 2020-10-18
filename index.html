@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<title>Menu</title>
+
+</head>
+
+<body>
+
+<h1>Our Menu</h1>
+
+	<section class="column-lg-4 colmn-md-6 colmn-sm-12">
+		<div>
+			<p class="Chicken">Chicken</p>
+			<p class="content">
+			 You can grill chicken indoors using a grill pan or electric grill. Our favorite grill pan is made out of cast iron. Well seasoned cast iron can bring a lot of flavor to your food.
+			</p>
+		</div>
+	</section>
+	<section class="column-lg-4 colmn-md-6 colmn-sm-12">
+		<div>
+			<p class="Beef">Beef</p>
+			<p class="content">Beef is the culinary name for meat from bovines, especially cattle. Beef can be harvested from cows, bulls, heifers or steers. Acceptability as a food source varies in different parts of the world.</p>
+		</div>
+	</section>
+	<section class="column-lg-4 colmn-md-12 colmn-sm-12">
+	<div>
+		<p class="Sushi">Sushi</p>
+			<p class="content">Sushi is traditionally made with medium-grain white rice, though it can be prepared with brown rice or short-grain rice. It is very often prepared with seafood, such as squid, eel, yellowtail, salmon, tuna or imitation crab meat.</p>
+	</div>
+</body>
+
+<Style>
+	
+* {
+		box-sizing: border-box;
+	}
+
+	body {
+		background-color: white;
+	}
+
+	h1 {
+		margin: 30px;
+		text-align: center;
+		font-family: Helvetica;
+		font-weight: bold;
+		font-size: 175%;
+	}
+
+	section {
+		position: relative;
+		padding: 15px;
+		width: 100%;
+	}
+
+	p {
+		position: relative;
+		clear: right;
+	}
+
+	div {
+		position: relative;
+		background-color: gray;
+		border: 1px solid black;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: auto;
+	}
+
+	.Chicken {
+		float: right;
+		color: black;
+		width: 100px;
+		padding: 5px;
+		margin: 0px;
+		border: 1px solid black;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;
+		background-color: red;
+		
+	}
+
+	.Beef {
+		float: right;
+		color: black;
+		width: 100px;
+		padding: 5px;
+		margin: 0px;
+		border: 1px solid black;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;
+		background-color: green;
+		
+	}
+
+	.Sushi {
+		float: right;
+		color: black;
+		width: 100px;
+		padding: 5px;
+		margin: 0px;
+		border: 1px solid black;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;
+		background-color: blue;
+		
+	}
+
+	.content {
+		padding-top: 40px;
+		padding-right: 5px;
+		border: none;
+		background-color: gray;
+		font-family: Helvetica;
+		color: black;
+		margin: 0px;
+		height: 150px;
+		overflow: auto;
+	}
+	
+	.row {
+		width: 90%;
+	}
+	
+	
+	@media (min-width: 992px){
+		.column-lg-4 {
+			float: left;
+			width: 33.33%;
+		}
+	}
+	
+	@media (min-width: 768px) and (max-width: 991px){
+		.colmn-md-6 {
+			float: left;
+			width: 50%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.colmn-md-12 {
+			float: left;
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	
+	@media (max-width: 767px){
+		.colmn-sm-12 {
+			float: left;
+			width: 100%;
+		}
+	}
+
+</Style>>
+</html>
